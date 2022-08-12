@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css'
+import TesteState from "./Components/testState/TesteState";
 
 export default function App(){
 
@@ -17,8 +18,11 @@ export default function App(){
             <p style={paragrafEstilo}>Corinthians Minha vida</p>
             <p className="time">Palmeiras não tem mundial</p>
 
+            <div>
+                <h2>Componente usanso State</h2>
+                <TesteState></TesteState>
+            </div>
             
-
         
         </main>
     )
