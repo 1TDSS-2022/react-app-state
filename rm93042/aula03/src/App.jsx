@@ -2,6 +2,7 @@ import React from "react";
 import './App.css'
 import TesteState from "./Components/testState/TesteState";
 
+
 export default function App(){
 
     const paragrafEstilo={
@@ -20,7 +21,8 @@ export default function App(){
 
             <div>
                 <h2>Componente usanso State</h2>
-                <TesteState></TesteState>
+                <TesteState/>
+            
             </div>
             
         

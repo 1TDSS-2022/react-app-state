@@ -1,12 +1,13 @@
-import React,{useState} from "react";
+import React from "react"
 
 
 export default function TesteStateFilho(props){
 
     return(
         <div>
-            <h2>Valor de State no filho:{props}</h2>
-            <button onClick={()=>props.aumentarProps()}>Aumentar</button>
+            <h2>Valor de State no filho: {props.valorProps}</h2>
+            <button onClick={()=>props.aumentar()}>Aumentar</button>
+           
         </div>
     )
 }

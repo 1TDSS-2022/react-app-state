@@ -21,7 +21,7 @@ export default function TesteState(){
             <p>Valor do State={valorState}</p>
             <p>VAlor da variavel={valorVariavel}</p>
             <button onClick={()=>aumentar()}>Aumentar</button>
-            <TesteStateFilho valorProps={valorState} aumentarProps={aumentar}/>
+            <TesteStateFilho valorProps={valorState} aumentar ={aumentar}/>
         </div>
         </>
         
