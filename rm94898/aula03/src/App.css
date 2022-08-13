@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+}
+
+.paragrafo{
+ 
+    font-size: 1.8em;
+    color: violet;
+    text-indent: 50px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
