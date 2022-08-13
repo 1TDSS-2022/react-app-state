@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: white;
+}
+.classe1{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
