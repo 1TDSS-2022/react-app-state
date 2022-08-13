@@ -1,5 +1,6 @@
 import React from "react"
 import "./App.css"
+import testeState from "./components/testeState/TesteState"
 
 export default function App() {
 
@@ -17,8 +18,7 @@ export default function App() {
             backgroundColor: "#fff234",
             color: '#0000ff', textAlign: "center"
          }}>Estudos sobre STATE</h1>
-         <p style={paragEstilo}>Rosas são vermelhas, violetas são azuis!</p>
-         <p className="pp">Meu conteúdo de classe</p>
+         <testeState></testeState>
         </>
     )
 }
