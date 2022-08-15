@@ -1,22 +1,19 @@
 import React from "react";
 import "./App.css";
+import TesteState from "./components/testeState/TesteState";
 
 export default function App(){
 
-    const paragEstilo = {
-        color: 'red',
-        fontSize: '1.8em',
-        fontFamily: 'Courier New',
-        textIndent: '50px',
-        fontStyle: 'italic'
-    }
+
 
     return (
         <div>
             <h1 style={{backgroundColor: '#fff234', color: '#0000ff', 
         textAlign: 'center'}}>ESTUDOS SOBRE STATE</h1>
-        <p style={paragEstilo}>Rosas são vermelhas, violetas são azuis!</p>
-        <p className="classe1">Meu conteúdo de classe</p>
+            <div>
+                <h2>COMPONENTE USANDO STATE</h2>
+                <TesteState/>
+            </div>
         </div>
     )
 }
