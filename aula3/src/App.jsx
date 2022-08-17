@@ -1,5 +1,6 @@
 import React from "react"
 import "./App.css"
+import Api from "./components/API/Api"
 import testeState from "./components/testeState/TesteState"
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
             backgroundColor: "#fff234",
             color: '#0000ff', textAlign: "center"
          }}>Estudos sobre STATE</h1>
-         <testeState></testeState>
+            <Api/>
         </>
     )
 }

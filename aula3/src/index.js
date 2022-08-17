@@ -4,5 +4,5 @@ import App from './App.jsx'
 import TesteState from './components/testeState/TesteState.jsx'
 
 ReactDOM.render(
-    <TesteState/>, document.getElementById("root")
+    <App></App>, document.getElementById("root")
 )
