@@ -19,7 +19,7 @@ export default function App() {
             backgroundColor: "#fff234",
             color: '#0000ff', textAlign: "center"
          }}>Estudos sobre STATE</h1>
-            <Api/>
+
         </>
     )
 }
